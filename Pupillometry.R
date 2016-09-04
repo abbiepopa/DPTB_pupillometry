@@ -107,14 +107,6 @@ rownames(pupiloutstats)<-c("AngryDil_TD","AngryDil_22q","HappyDil_TD","HappyDil_
 
 setwd("/Users/abbiepopa/Documents/Lab/DPTB/Pupilometry/Data")
 write.csv(pupiloutstats,"pupilstats.csv")
-# t.test(pupil788data$DiameterPupilRightEyeNeutral, pupil788data$DiameterPupilRightEyeAngry)
-# library(vioplot)
-# x1 <- pupil788data$DiameterPupilRightEyeNeutral
-# x2 <- pupil788data$DiameterPupilRightEyeHappy
-# x3 <- pupil788data$DiameterPupilRightEyeAngry
-# vioplot(x1,x2,x3)
-### FIGURE OUT A PLOT, OR EXPORT AND USE DATAGRAPH!!!
-
 
 ###Change
 
